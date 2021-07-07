@@ -163,16 +163,17 @@ function DetectAndServe(){
   data-getnet-sellerid="99b3d298-86a8-4f50-a897-78a1fef702cd"
   data-getnet-token="Bearer b54d6883-fbc8-47cf-b4aa-aa775cd35280"
   data-getnet-payment-methods-disabled='["boleto","debito","pix"]'
-  data-getnet-amount="1"
-  data-getnet-customerid="5f5b79d451fd5b7a71d7a444"
-  data-getnet-orderid="60e45f465031937d708adfb7"
+  data-getnet-amount="1.00"
+  data-getnet-customerid="12345"
+  data-getnet-orderid="12345"
   data-getnet-button-class="pay-button-getnet"
+  data-getnet-installments="4"
   data-getnet-customer-first-name="João"
   data-getnet-customer-last-name="da Silva"
   data-getnet-customer-document-type="CPF"
   data-getnet-customer-document-number="22233366638"
   data-getnet-customer-email="teste@getnet.com.br"
-  data-getnet-customer-phone-number="5511975170530"
+  data-getnet-customer-phone-number="1134562356"
   data-getnet-customer-address-street="Rua Alexandre Dumas"
   data-getnet-customer-address-street-number="1711"
   data-getnet-customer-address-complementary=""
@@ -182,24 +183,9 @@ function DetectAndServe(){
   data-getnet-customer-address-zipcode="04717004"
   data-getnet-customer-country="Brasil"
   data-getnet-shipping-address='[{ "first_name": "João", "name": "João Borgas", "email": "joaoborgas@gmail.com", "phone_number": "", "shipping_amount": 10, "address": { "street": "Rua dos Pagamentos", "complement": "", "number": "171", "district": "Centro", "city": "São Paulo", "state": "SP", "country": "Brasil", "postal_code": "12345678"}}]'
-  data-getnet-url-callback="https://ecommerce.com.br/sucesso"
   data-getnet-items='[{"name": "", "description": "", "value": 0, "quantity": 0, "sku": ""}]'
+  data-getnet-url-callback="https://ecommerce.com.br/sucesso"
   data-getnet-pre-authorization-credit="True">
 </script><button type="button" class="pay-button-getnet">Realizar pagamento</button>
-
-<script>
-    (function (a, b, c, d, e, f, g) {
-    a['CsdpObject'] = e; a[e] = a[e] || function () {
-    (a[e].q = a[e].q || []).push(arguments)
-    }, a[e].l = 1 * new Date(); f = b.createElement(c),
-    g = b.getElementsByTagName(c)[0]; f.async = 1; f.src = d; g.parentNode.insertBefore(f, g)
-    })(window, document, 'script', 'https://device.clearsale.com.br/p/fp.js', 'csdp');
-    csdp('app', 'chldckvvyqwvjzp5hfd5');
-    csdp('sessionid', 'DIATestSession1');
-</script>
-
-
-
 </body>
 </html>
-
